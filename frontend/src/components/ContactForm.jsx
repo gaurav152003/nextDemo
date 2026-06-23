@@ -29,7 +29,7 @@ export default function ContactForm() {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:5000/api/enquiry",
+        " https://nextdemo-sfh2.onrender.com/api/enquiry",
         formData,
       );
 

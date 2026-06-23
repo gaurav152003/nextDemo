@@ -29,9 +29,9 @@ export default function ContactForm() {
       setLoading(true);
 
       const res = await axios.post(
-        " https://nextdemo-sfh2.onrender.com/api/enquiry",
-        formData,
-      );
+  "https://nextdemo-z3lo.onrender.com/api/enquiry",
+  formData
+);
 
       toast.success(`Ticket: ${res.data.enquiry.ticketId}`);
 
